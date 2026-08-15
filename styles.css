@@ -1957,7 +1957,7 @@ svg {
   .location__head { grid-template-columns: 1fr; }
   .location__details { grid-column: auto; }
   .projects .shell, .location .shell { width: 90vw; }
-  .location__map { height: 390px; border-right: 0; border-left: 0; }
+  .location__map { height: 340px; border-right: 0; border-left: 0; }
   .location__coordinates { right: 12px; bottom: 12px; }
   .location__map-action { left: 12px; bottom: 12px; min-width: 210px; }
   .contact__copy { display: block; }

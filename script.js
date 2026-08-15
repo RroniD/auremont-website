@@ -235,7 +235,7 @@ document.querySelectorAll(".lang-switch a, .mobile-languages a").forEach((link) 
   link.addEventListener("click", (event) => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const target = new URL(link.href, window.location.href);
-    if (target.pathname === window.location.pathname) {
+    if (link.classList.contains("is-active") || target.pathname === window.location.pathname) {
       event.preventDefault();
       return;
     }
